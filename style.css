@@ -3,17 +3,33 @@ body{
 }
 
 h1{
-    color:#663399;
+    color:#DA70D6;
 }
 
 h2{
-    color:#DA70D6
+    color:#B64EB3;
+}
+
+h3{
+    
+    color:#922B91;
+    display:inline;
+}
+
+h4{
+    color:#700071;
+    display:inline;
+}
+h5{
+    color:#4F0052;
+    display:inline;
 }
 
 
-p{
+p, li, i{
     color: #33194d;
 }
+    
 
 
 
@@ -25,7 +41,7 @@ p{
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #9932CC;
+  color: #6E618D;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -34,7 +50,7 @@ p{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #FF00FF;
+  background-color: #F6828C;
   color: black;
 }
 
