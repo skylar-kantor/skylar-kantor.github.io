@@ -41,7 +41,7 @@ p, li, i{
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #6E618D;
+  color: #322a60;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -57,5 +57,5 @@ p, li, i{
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #DB7093;
-  color: white;
+  color: #3c1362;
 }
