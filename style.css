@@ -60,6 +60,7 @@ a{
 .topnav {
   background-color: #a0ccda;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -82,6 +83,7 @@ a{
 .topnav a.active {
   background-color: #b84a62;
   color: #3c1362;
+  border-radius: 10px;
 }
 
 
