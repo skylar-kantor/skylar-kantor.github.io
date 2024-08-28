@@ -33,7 +33,7 @@ h2{
 }
 
 h3{
-    
+
     color:#8e44ad;
     display:inline;
 }
@@ -52,7 +52,7 @@ h5{
 p, li, i{
     color: #0b0205;
 }
-    
+
 a{
     color:#0B0205;
 }
@@ -74,16 +74,73 @@ a{
   border-radius: 10px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #875c74;
-  border-radius: 10px;
-  color: black;
+@media all{
+.navmenu,
+.navmenu ul,
+.navmenu li
+{
+  padding: 0px;
+  margin: 0px;
 }
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #b84a62;
-  color: #3c1362;
-  border-radius: 10px;
+.navmenu > li
+{
+  float: left;
+}
+.navmenu li
+{
+  list-style-type: none;
+  border: 1px solid #3366cc;
+  color: #322a60;
+  background-color: #a0ccda;
+  padding: 2px;
+}
+.navmenu ul
+{
+  display: none;
+  position: absolute;
+  margin-left: -3px;
+  margin-top: 2px;
+}
+.navmenu li:hover > ul
+{
+  display: block;
+}
+.navmenu ul.parent_hover
+{
+  display: block;
+}
+.navmenu a
+{
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+.navmenu li:hover
+{
+  background-color: #875c74;
+}
+.navmenu li.hover,
+.navmenu a:hover
+{
+  background-color: #875c74;
+}
+.navmenu ul ul
+{
+  margin-top: -1.2em;
+  left: 99%;
+}
+.navmenu span
+{
+  display: block;
+}
+.navmenu
+{
+  float: left;
+  width: 100%;
+  background-color: #a0ccda;
+}
+.endmenu
+{
+  clear: left;
+}
 }
